@@ -1,0 +1,359 @@
+/*COLOR PALETTE
+#0c1017 primary
+#d7dad6 secondary
+#006eff tertiary
+#002563 fourtiary*/
+
+body {
+    margin:0px auto;
+    background-color: #0c1017;
+}
+
+#primary-color {
+    color:#0c1017
+}
+#secondary-color {
+    color:#d7dad6
+}
+#tertiary-color {
+    color:#006eff
+}
+#fourtiary-color {
+    color:#002563
+}
+
+hr {
+    width:50%
+}
+
+h1 {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 900;
+    color:#d7dad6;
+}
+
+.separaTempo{
+    width:80%;
+}
+
+
+#navBar {
+    background-color: #006eff;
+    color: #002563;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding:2px;
+    transition:0.5s;
+    font-size: 3vh;
+}
+#navBar:hover {
+    letter-spacing: 6px;
+    transition: 1s;
+    cursor:pointer;
+}
+#navBar h1{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 900;
+}
+
+.headerPlacar {
+    width:60%;
+    background-color:#1e283a;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    margin:0px auto;
+}
+
+.informacoesJogo {
+    font-family: 'Epilogue', sans-serif;
+    transition:0.5s;
+    display:flex;
+    flex-direction: row;
+}
+
+.separador {
+    margin:14px 12px 0px 12px;
+}
+
+.tempoJogoAoVivo {
+    transition:0.5s;
+    padding:0px auto;
+    animation: pulse 2s infinite;
+}
+
+.tempoJogoAoVivo h1{
+    color:#006eff;
+    font-family: 'Epilogue', sans-serif;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+		opacity:100%;
+	}
+
+	50% {
+		transform: scale(0.75);
+		opacity:40%;
+    }
+	100% {
+		transform: scale(1);
+		opacity:100%;
+	}
+}
+
+.tempoJogoEncerrado {
+    color: #d7dad6;
+    font-family: 'Epilogue', sans-serif;
+    transition:0.5s;
+    padding:0px auto;
+}
+
+.placar {
+    width:60%;
+    background-color:#1e283a;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0px auto;
+}
+
+.timeCasa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#d7dad6;
+}
+.timeCasa h3{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+}
+
+.placarCasa{
+    display: flex;
+}
+.placarCasa h1{
+    font-size: 10vh;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 900;
+    color:#d7dad6;
+    margin:0px 50px 60px 150px;
+}
+.separadorPlacar{
+    font-size: 10vh;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 100;
+    color:#d7dad6;
+    margin:0px 50px 60px 50px;
+}
+.placarFora{
+    display: flex;
+}
+.placarFora h1{
+    font-size: 10vh;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 900;
+    color:#d7dad6;
+    margin:0px 150px 60px 50px;
+}
+
+.timeFora {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#d7dad6;
+}
+.timeFora h3{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+}
+
+.artilheirosJogo{
+    width:60%;
+    background-color:#1e283a;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin:0px auto;
+}
+.golsJogadoresCasa{
+    display: flex;
+    align-items: top;
+    color:#d7dad6;
+    margin-left:50px;
+}
+.golsJogadoresCasa li{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 400;
+    list-style-type: none;
+}
+.golsJogadoresFora{
+    display: flex;
+    align-items: top;
+    color:#d7dad6;
+    margin-right:100px;
+}
+.golsJogadoresFora li{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 400;
+    list-style-type: none;
+}
+
+.lancesJogo{
+    width:60%;
+    background-color:#111621;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    margin:0px auto;
+}
+
+.lanceGol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    width:30%;
+    background-color:#1e283a;
+    font-family: 'Epilogue', sans-serif;
+    color: #d7dad6;
+    margin-bottom: 0px;
+    padding: 20px;
+}
+.lanceGolTopoCasa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#a70021;
+    border-radius: 16px;
+    width:100%
+}
+.lanceGolTopoCasa h1{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+    font-size: 2vh;
+    color: #d7dad6;
+    animation: pulse 2s infinite;
+}
+.lanceGolTopoFora{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#005722;
+    border-radius: 16px;
+    width:100%;
+}
+.lanceGolTopoFora h1{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+    font-size: 2vh;
+    color: #d7dad6;
+    animation: pulse 2s infinite;
+}
+
+.lanceCartaoAmarelo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    width:30%;
+    background-color:#1e283a;
+    font-family: 'Epilogue', sans-serif;
+    color: #d7dad6;
+    margin-bottom: 0px;
+    padding: 20px;
+}
+.lanceCartaoAmareloTopo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#ffae00;
+    border-radius: 16px;
+    width:100%
+}
+.lanceCartaoAmareloTopo h1{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+    font-size: 2vh;
+    color: #000000;
+}
+
+.lanceCartaoVermelho{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    width:30%;
+    background-color:#1e283a;
+    font-family: 'Epilogue', sans-serif;
+    color: #d7dad6;
+    margin-bottom: 0px;
+    padding: 20px;
+}
+.lanceCartaoVermelhoTopo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#ff001e;
+    border-radius: 16px;
+    width:100%
+}
+.lanceCartaoVermelhoTopo h1{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+    font-size: 2vh;
+    color: #d7dad6;
+}
+.lanceFinal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    width:30%;
+    background-color:#1e283a;
+    font-family: 'Epilogue', sans-serif;
+    color: #d7dad6;
+    margin-bottom: 0px;
+    padding: 20px;
+}
+.lanceFinalTopo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#31405d;
+    border-radius: 16px;
+    width:100%
+}
+.lanceFinalTopo h1{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+    font-size: 2vh;
+    color: #d7dad6;
+}
+.lanceNormal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    width:30%;
+    background-color:#1e283a;
+    font-family: 'Epilogue', sans-serif;
+    color: #d7dad6;
+    margin-bottom: 0px;
+    padding: 20px;
+}
