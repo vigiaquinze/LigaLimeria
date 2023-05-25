@@ -21,6 +21,12 @@ body {
 #fourtiary-color {
     color:#002563
 }
+#success-color {
+    color:#005a51
+}
+#danger-color {
+    color:#db003e
+}
 
 hr {
     width:50%
@@ -84,7 +90,7 @@ h1 {
 }
 
 .tempoJogoAoVivo h1{
-    color:#006eff;
+    color:#ff0033;
     font-family: 'Epilogue', sans-serif;
 }
 
@@ -224,7 +230,13 @@ h1 {
     font-family: 'Epilogue', sans-serif;
     color: #d7dad6;
     margin-bottom: 0px;
-    padding: 20px;
+    padding: 10px 80px;
+}
+.fotoGol{
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    width:100%
 }
 .lanceGolTopoCasa{
     display: flex;
@@ -233,11 +245,11 @@ h1 {
     align-items: center;
     background-color:#a70021;
     border-radius: 16px;
-    width:100%
+    width:140%
 }
 .lanceGolTopoCasa h1{
     font-family: 'Epilogue', sans-serif;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 2vh;
     color: #d7dad6;
     animation: pulse 2s infinite;
@@ -249,11 +261,11 @@ h1 {
     align-items: center;
     background-color:#005722;
     border-radius: 16px;
-    width:100%;
+    width:140%;
 }
 .lanceGolTopoFora h1{
     font-family: 'Epilogue', sans-serif;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 2vh;
     color: #d7dad6;
     animation: pulse 2s infinite;
@@ -270,7 +282,7 @@ h1 {
     font-family: 'Epilogue', sans-serif;
     color: #d7dad6;
     margin-bottom: 0px;
-    padding: 20px;
+    padding: 10px 80px;
 }
 .lanceCartaoAmareloTopo{
     display: flex;
@@ -279,7 +291,7 @@ h1 {
     align-items: center;
     background-color:#ffae00;
     border-radius: 16px;
-    width:100%
+    width:140%
 }
 .lanceCartaoAmareloTopo h1{
     font-family: 'Epilogue', sans-serif;
@@ -299,7 +311,7 @@ h1 {
     font-family: 'Epilogue', sans-serif;
     color: #d7dad6;
     margin-bottom: 0px;
-    padding: 20px;
+    padding: 10px 80px;
 }
 .lanceCartaoVermelhoTopo{
     display: flex;
@@ -308,7 +320,7 @@ h1 {
     align-items: center;
     background-color:#ff001e;
     border-radius: 16px;
-    width:100%
+    width:140%
 }
 .lanceCartaoVermelhoTopo h1{
     font-family: 'Epilogue', sans-serif;
@@ -327,7 +339,7 @@ h1 {
     font-family: 'Epilogue', sans-serif;
     color: #d7dad6;
     margin-bottom: 0px;
-    padding: 20px;
+    padding: 10px 80px;
 }
 .lanceFinalTopo{
     display: flex;
@@ -336,7 +348,7 @@ h1 {
     align-items: center;
     background-color:#31405d;
     border-radius: 16px;
-    width:100%
+    width:140%
 }
 .lanceFinalTopo h1{
     font-family: 'Epilogue', sans-serif;
@@ -355,5 +367,37 @@ h1 {
     font-family: 'Epilogue', sans-serif;
     color: #d7dad6;
     margin-bottom: 0px;
-    padding: 20px;
+    padding: 10px 80px;
+}
+.lanceSub{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    width:30%;
+    background-color:#1e283a;
+    font-family: 'Epilogue', sans-serif;
+    color: #d7dad6;
+    margin-bottom: 0px;
+    padding: 10px 80px;
+}
+#subEntra{
+    background-color: #005a51;
+    padding:10px;
+    border-radius: 8px;
+    width:70%;
+    display: flex;
+    justify-content: center;
+}
+#subSai{
+    background-color: #a70021;
+    padding:10px;
+    border-radius: 8px;
+    width:70%;
+    display: flex;
+    justify-content: center;
+}
+#nomeTimeSub{
+    padding: 20px 0px;
 }
