@@ -1,0 +1,92 @@
+/*COLOR PALETTE
+#0c1017 primary
+#d7dad6 secondary
+#006eff tertiary
+#002563 fourtiary*/
+
+body {
+    margin:0px auto;
+    background-color: #0c1017;
+}
+
+#primary-color {
+    color:#0c1017
+}
+#secondary-color {
+    color:#d7dad6
+}
+#tertiary-color {
+    color:#006eff
+}
+#fourtiary-color {
+    color:#002563
+}
+#success-color {
+    color:#005a51
+}
+#danger-color {
+    color:#db003e
+}
+
+hr {
+    width:50%
+}
+
+h1 {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 900;
+    color:#d7dad6;
+}
+
+.separaTempo{
+    width:80%;
+}
+
+
+#navBar {
+    background-color: #006eff;
+    color: #002563;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding:2px;
+    transition:0.5s;
+    font-size: 3vh;
+}
+#navBar:hover {
+    letter-spacing: 6px;
+    transition: 1s;
+    cursor:pointer;
+}
+#navBar h1{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 900;
+}
+
+.tabelaEquipesBorda{
+    background-color: #1f293b;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 900;
+    color: #d7dad6;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width:70%;
+    border-radius: 16px;
+    margin: 0px auto;
+    padding:16px;
+}
+.tabelaColPosicao{
+    padding:10px;
+}
+.tabelaColTime{
+    padding:10px;
+}
+.tabelaClassificacaoNome{
+    padding:10px;
+    text-transform: uppercase;
+    font-size: 3vh;
+    font-weight: 200;
+    font-family: 'Epilogue', sans-serif;
+    color: #d7dad6;
+}
