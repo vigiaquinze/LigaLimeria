@@ -31,8 +31,8 @@
             <p id="secondary-color">Estádio Abílio Pedro</p>
             <p class="separador" id="tertiary-color"> · </p>
         </div>
-        <div class="tempoJogoAoVivo">
-            <h1 alt="Ao Vivo | Atualizado a cada 15 minutos">70'</h1>
+        <div class="tempoJogoEncerrado">
+            <h1 alt="Ao Vivo | Atualizado a cada 15 minutos">90'</h1>
         </div>
     </div>
     <div class="placar">
@@ -42,11 +42,13 @@
         </div>
         <div class="placarCasa">
             <h1>2</h1>
+            <h4 id="placarPenaltis" style="display:none">(5)</h4>
         </div>
         <div class="separadorPlacar">
             <span>×</span>
         </div>
         <div class="placarFora">
+            <h4 id="placarPenaltis" style="display:none">(4)</h4>
             <h1>2</h1>
         </div>
         <div class="timeFora">
@@ -58,7 +60,7 @@
     <div class="artilheirosJogo">
         <div class="golsJogadoresCasa">
             <ul>
-                <li>Barbos'Antonio 45', 55'</li>
+                <li>45', 55' Barbos'Antonio</li>
                 <li></li>
                 <li></li>
                 <li></li>
@@ -77,18 +79,48 @@
             </ul>
         </div>
     </div>
+    <div class="cronicaJogo">
+        <div class="textoCronicaJogo">
+            <p>Encerrado</p>
+            <h1 id="tituloTextoCronicaJogo">Palmeiras vence o Santos nos pênaltis e conquista o título da Copa do Brasil
+            </h1>
+            <h2>Em jogo dramático, Dudu marca duas vezes no tempo normal, mas Ricardo Oliveira desconta no fim. Nas
+                penalidades, brilha a estrela de Fernando Prass</h2>
+            <img src="https://live.staticflickr.com/65535/52923104722_148a433664_c.jpg" class="fotoJogo">
+            <h1>O título é do Verdão!</h1>
+            <h4>O GloboEsporte.com retransmitiu nesta segunda-feira a conquista do título da Copa do Brasil de 2015 pelo
+                Palmeiras. Depois de perder por 1 a 0, na Vila Belmiro, o Verdão bateu o Santos por 2 a 1, na arena, com
+                dois gols de Dudu e levou a decisão para os pênaltis. Nas cobranças, brilhou a estrela do goleiro
+                Fernando Prass, que defendeu uma cobrança e ainda converteu a batida final para assegurar a taça.</h4>
+        </div>
+    </div>
     <div class="lancesJogo">
+        <br>
+        <hr class="separaTempo">
+        <h1>Fim de papo!</h1>
+        <hr class="separaTempo">
+        <br>
+        <br>
+        <div class="lanceFinal">
+            <div class="lanceFinalTopo">
+                <br>
+                <h1>FIM DE JOGO</h1>
+            </div>
+            <h1>90'</h1>
+            <h2>Apita o juiz!</h2>
+            <p>Final de jogo.</p>
+        </div>
         <br>
         <hr>
         <br>
         <div class="lanceSub">
-            <h1>65'</h1>
-            <h1>Substituição!</h1>
-            <h2 class="lanceGolTopoFora" id="nomeTimeSub">Serrano</h2>
-            <h1 id="subEntra">ENTRA</h1>
+            <h1>90'</h1>
+            <h3>Substituição!</h3>
+            <h4 class="lanceGolTopoFora" id="nomeTimeSub" style="background-color:#005722;">Serrano</h4>
+            <h3 id="subEntra">ENTRA</h3>
             <p>Renan Bopcyen</p>
             <h4 class="posicaoJogador">VOL</h4>
-            <h1 id="subSai">SAI</h1>
+            <h3 id="subSai">SAI</h3>
             <p>Alberto Morumbi</p>
             <h4 class="posicaoJogador">ZAG</h4>
         </div>
@@ -97,12 +129,12 @@
         <br>
         <div class="lanceSub">
             <h1>60'</h1>
-            <h1>Substituição!</h1>
-            <h2 class="lanceGolTopoCasa" id="nomeTimeSub">Abílio Pedro</h2>
-            <h1 id="subEntra">ENTRA</h1>
+            <h3>Substituição!</h3>
+            <h4 class="lanceGolTopoCasa" id="nomeTimeSub" style="background-color:#a70021;">Abílio Pedro</h4>
+            <h3 id="subEntra">ENTRA</h3>
             <p>Fraga de Oliveira</p>
             <h4 class="posicaoJogador">ATA</h4>
-            <h1 id="subSai">SAI</h1>
+            <h3 id="subSai">SAI</h3>
             <p>Henryk</p>
             <h4 class="posicaoJogador">PE</h4>
         </div>
@@ -110,14 +142,14 @@
         <hr>
         <br>
         <div class="lanceGol">
-            <div class="lanceGolTopoCasa">
+            <div class="lanceGolTopoCasa" style="background-color:#a70021;">
                 <br>
                 <img src="assets/icons/goal_icon.svg">
                 <h1>GOOOOOOOLLLLL!!!</h1>
             </div>
-            <h1>55'</h1>
-            <h2>Valente Barbos'Antonio</h2>
-            <h3>Abílio Pedro</h3>
+            <h1>80'</h1>
+            <h3>Valente Barbos'Antonio</h3>
+            <h4>Abílio Pedro</h4>
             <p>Gol de Valente Barbos'Antonio.</p>
             <img src="https://live.staticflickr.com/65535/52923104722_148a433664_c.jpg" class="fotoGol">
         </div>
@@ -130,8 +162,8 @@
                 <h1>CARTÃO AMARELO</h1>
             </div>
             <h1>50'</h1>
-            <h2>Couto Graça</h2>
-            <h3>Abílio Pedro</h3>
+            <h3>Couto Graça</h3>
+            <h4>Abílio Pedro</h4>
             <p>Cartão amarelo para Couto Graça.</p>
         </div>
         <br>
@@ -143,8 +175,8 @@
                 <h1>CARTÃO VERMELHO</h1>
             </div>
             <h1>45'</h1>
-            <h2>Alex Pereira</h2>
-            <h3>Serrano</h3>
+            <h3>Alex Pereira</h3>
+            <h4>Serrano</h4>
             <p>Cartão vermelho para Alex Pereira.</p>
         </div>
         <br>
@@ -156,7 +188,7 @@
                 <h1>INÍCIO DO 2° TEMPO</h1>
             </div>
             <h1>45'</h1>
-            <h2>Apita o juiz.</h2>
+            <h3>Apita o juiz.</h3>
             <p>Começa o segundo tempo.</p>
         </div>
         <br>
@@ -172,7 +204,7 @@
                 <h1>FIM DO 1° TEMPO</h1>
             </div>
             <h1>45'</h1>
-            <h2>Apita o juiz.</h2>
+            <h3>Apita o juiz.</h3>
             <p>Final do primeiro tempo.</p>
         </div>
         <br>
@@ -180,7 +212,7 @@
         <br>
         <div class="lanceNormal">
             <h1>40'</h1>
-            <h2>Impedimento!</h2>
+            <h3>Impedimento!</h3>
             <p>Henryk recebe a bola impedido.</p>
         </div>
         <br>
@@ -188,21 +220,21 @@
         <br>
         <div class="lanceNormal">
             <h1>35'</h1>
-            <h2>UUUHHH!</h2>
+            <h3>UUUHHH!</h3>
             <p>Valente Barbos'Antonio bate e o goleiro espalma para escanteio</p>
         </div>
         <br>
         <hr>
         <br>
         <div class="lanceGol">
-            <div class="lanceGolTopoFora">
+            <div class="lanceGolTopoFora" style="background-color:#005722;">
                 <br>
                 <img src="assets/icons/goal_icon.svg">
                 <h1>GOOOOOOOLLLLL!!!</h1>
             </div>
             <h1>30'</h1>
-            <h2>Alex Pereira</h2>
-            <h3>Serrano</h3>
+            <h3>Alex Pereira</h3>
+            <h4>Serrano</h4>
             <p>Gol de Alex Pereira.</p>
             <img src="https://live.staticflickr.com/65535/52923104722_148a433664_c.jpg" class="fotoGol">
         </div>
@@ -215,7 +247,7 @@
                 <h1>COMEÇA O JOGO!</h1>
             </div>
             <h1>00'</h1>
-            <h2>Apita o juiz.</h2>
+            <h3>Apita o juiz.</h3>
             <p>Começa o jogo.</p>
         </div>
         <br>

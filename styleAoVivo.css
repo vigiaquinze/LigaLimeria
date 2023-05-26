@@ -77,6 +77,9 @@ h1 {
     transition:0.5s;
     display:flex;
     flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin:20px auto;
 }
 
 .separador {
@@ -92,6 +95,8 @@ h1 {
 .tempoJogoAoVivo h1{
     color:#ff0033;
     font-family: 'Epilogue', sans-serif;
+    display: flex;
+    margin:20px;
 }
 
 @keyframes pulse {
@@ -115,6 +120,7 @@ h1 {
     font-family: 'Epilogue', sans-serif;
     transition:0.5s;
     padding:0px auto;
+    display:none;
 }
 
 .placar {
@@ -132,6 +138,8 @@ h1 {
     justify-content: center;
     align-items: center;
     color:#d7dad6;
+    transition:0.8s;
+    animation:pulse;
 }
 .timeCasa h3{
     font-family: 'Epilogue', sans-serif;
@@ -148,6 +156,12 @@ h1 {
     color:#d7dad6;
     margin:0px 50px 60px 150px;
 }
+#placarPenaltis{
+    font-size: 2.5vh;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 300;
+    color:#d7dad6;
+}
 .separadorPlacar{
     font-size: 10vh;
     font-family: 'Epilogue', sans-serif;
@@ -155,6 +169,7 @@ h1 {
     color:#d7dad6;
     margin:0px 50px 60px 50px;
 }
+
 .placarFora{
     display: flex;
 }
@@ -172,6 +187,8 @@ h1 {
     justify-content: center;
     align-items: center;
     color:#d7dad6;
+    transition:0.8s;
+    animation:pulse;
 }
 .timeFora h3{
     font-family: 'Epilogue', sans-serif;
@@ -191,6 +208,7 @@ h1 {
     align-items: top;
     color:#d7dad6;
     margin-left:50px;
+    text-align: left;
 }
 .golsJogadoresCasa li{
     font-family: 'Epilogue', sans-serif;
@@ -207,6 +225,35 @@ h1 {
     font-family: 'Epilogue', sans-serif;
     font-weight: 400;
     list-style-type: none;
+    text-align: right;
+}
+
+.cronicaJogo{
+    width:100%;
+    background-color:#040507;
+    display: flex;
+    justify-content: center;
+}
+
+.textoCronicaJogo{
+    width:70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Epilogue', sans-serif;
+    color: #d7dad6;
+    padding:10px;
+}
+
+#tituloTextoCronicaJogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    padding:40px;
+    font-size: 5vh;
 }
 
 .lancesJogo{
@@ -216,6 +263,7 @@ h1 {
     flex-direction: column;
     justify-content:center;
     align-items:center;
+    text-align: center;
     margin:0px auto;
 }
 
@@ -231,6 +279,7 @@ h1 {
     color: #d7dad6;
     margin-bottom: 0px;
     padding: 10px 80px;
+    text-align: center;
 }
 .fotoGol{
     display: flex;
@@ -243,7 +292,6 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:#a70021;
     border-radius: 16px;
     width:140%
 }
@@ -259,7 +307,6 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:#005722;
     border-radius: 16px;
     width:140%;
 }
@@ -283,6 +330,7 @@ h1 {
     color: #d7dad6;
     margin-bottom: 0px;
     padding: 10px 80px;
+    text-align: center;
 }
 .lanceCartaoAmareloTopo{
     display: flex;
@@ -312,6 +360,7 @@ h1 {
     color: #d7dad6;
     margin-bottom: 0px;
     padding: 10px 80px;
+    text-align: center;
 }
 .lanceCartaoVermelhoTopo{
     display: flex;
@@ -340,6 +389,7 @@ h1 {
     color: #d7dad6;
     margin-bottom: 0px;
     padding: 10px 80px;
+    text-align: center;
 }
 .lanceFinalTopo{
     display: flex;
@@ -368,6 +418,7 @@ h1 {
     color: #d7dad6;
     margin-bottom: 0px;
     padding: 10px 80px;
+    text-align: center;
 }
 .lanceSub{
     display: flex;
@@ -381,6 +432,7 @@ h1 {
     color: #d7dad6;
     margin-bottom: 0px;
     padding: 10px 80px;
+    text-align: center;
 }
 #subEntra{
     background-color: #005a51;
@@ -400,4 +452,9 @@ h1 {
 }
 #nomeTimeSub{
     padding: 20px 0px;
+    text-transform: uppercase;
+}
+.fotoJogo {
+    width:70%;
+    padding:20px;
 }
