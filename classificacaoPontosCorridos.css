@@ -75,6 +75,14 @@ h1 {
     font-weight: 900;
 }
 
+.tabelaTitulo{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    color:#d7dad6;
+}
+
 .classificacaoPontosCorridos{
     background-color: #1f293b;
     display: flex;
@@ -112,266 +120,62 @@ h1 {
     width:25%
 }
 .tabelaHeader{
-    padding:15px;
-    border-bottom-style: solid;
-    border-right-style: solid;
-    border-width: 1px;
-    border-color: #41557b;
-    font-weight: 800;
-    font-family: 'Epilogue', sans-serif;
+    border-bottom: 1px solid #41557b;
+    border-right: none;
+    border-top: 1px solid #41557b;
     color: #d7dad6;
-    width:95%;
-}
-.tabelaClassificacaoNome{
+    font-family: 'Epilogue', sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 300;
+    height: 30px;
+    line-height: 30px;
     text-transform: uppercase;
-    font-size: 3vh;
-    font-weight: 800;
-    font-family: 'Epilogue', sans-serif;
-    color: #d7dad6;
-    border-bottom-style: solid;
-    border-right-style: solid;
-    border-color: #41557b;
-    border-width: 1px;
-    padding:10px;
-    border-bottom-style: solid;
-    border-right-style: solid;
-    border-width: 1px;
-    width:95%;
-    vertical-align: middle;
-}
-.classificaoTime{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1%;
 }
 .classificacaoTabelaLinha{
-    padding:10px;
-    border-bottom-style: solid;
-    border-right-style: solid;
-    border-color: #41557b;
-    border-width: 1px;
-    width:10px;
-    align-items: center;
-    vertical-align: middle;
+    text-align: auto;
+    border-right: 1px solid #41557b;
+    border-bottom: solid 1px #41557b;
+    height: 55px;
 }
 .classificacaoPosicao{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    padding:10px;
+    text-align: left;
+    letter-spacing: -2px;
+    line-height: 22px;
     font-size: 3vh;
-    font-weight: 900;
-    width:1%;
-    vertical-align: middle;
 }
 .classificacaoNomesTime{
-    font-size: 3vh;
-    font-weight: 200;
-    display: flex;
-    width: 400%;
-    text-align: left;
+    display: block;
+    overflow: hidden;
+    word-break: keep-all;
+    text-overflow: ellipsis;
 }
 .classificacaoNomesTimeSigla{
-    padding:10px;
-    font-size: 4vh;
-    font-weight: 200;
     display: none;
 }
-.tabelaHeaderColuna{
-    padding:10px;
-    border-bottom-style: solid;
-    border-right-style: solid;
-    border-width: 1px;
-    border-color: #41557b;
-    width:95%;
-}
 .classificacaoPontos{
-    margin:0px auto;
-    text-align: center;
-    font-size: 3vh;
-    font-weight: 300;
+    background-color: #0000000f;
+    line-height: 14px;
     font-family: 'Epilogue', sans-serif;
     color: #d7dad6;
+    text-align: center;
 }
 .classificacaoPontosPontuacao{
-    margin:0px auto;
-    text-align: center;
-    font-size: 3vh;
     font-weight: 700;
-    font-family: 'Epilogue', sans-serif;
-    color: #d7dad6;
 }
 .tabelaPontos{
     background-color: #00000033;
-    width:240px;
+    border-left: 1px solid #41557b;
+    border-right: 1px solid #41557b;
+    width:200px
 }
 
-@media screen and (max-width:2560px){
-    .classificacaoNomesTime{
-        font-size: 4vh;
-    }
-    .classificacaoPontos{
-        padding:20px 0px;
-        font-size: 2vh;
-    }
-    .classificacaoPontosPontuacao{
-        padding:0px;
-        font-size: 2vh;
-    }
-    .tabelaHeader{
-        padding:10px;
-        font-size: 2vh;
-    }
-    .tabelaClassificacaoNome{
-        padding:10px;
-        font-size: 2vh;
-    }
-    .tabelaColPosicao{
-        padding:10px;
-        width:0%;
-    }
-    .tabelaColTime{
-        padding:10px;
-        width:0%;
-    }
-}
-@media screen and (max-width:1920px){
-    .classificacaoNomesTime{
-        font-size: 4vh;
-    }
-    .classificacaoPontos{
-        padding:20px 0px;
-        font-size: 2vh;
-    }
-    .classificacaoPontosPontuacao{
-        padding:0px;
-        font-size: 2vh;
-    }
-    .tabelaHeader{
-        padding:10px;
-        font-size: 2vh;
-    }
-    .tabelaClassificacaoNome{
-        padding:10px;
-        font-size: 2vh;
-    }
-    .tabelaColPosicao{
-        padding:10px;
-        width:0%;
-    }
-    .tabelaColTime{
-        padding:10px;
-        width:0%;
-    }
-}
-@media screen and (max-width:1500px){
-    .classificacaoNomesTime{
-        font-size: 2vh;
-    }
-    .classificacaoPontos{
-        padding:20px 0px;
-        font-size: 2vh;
-    }
-    .classificacaoPontosPontuacao{
-        padding:0px;
-        font-size: 2vh;
-    }
-    .tabelaHeader{
-        padding:10px;
-        font-size: 2vh;
-    }
-    .tabelaClassificacaoNome{
-        padding:10px;
-        font-size: 2vh;
-    }
-    .tabelaColPosicao{
-        padding:10px;
-        width:0%;
-    }
-    .tabelaColTime{
-        padding:10px;
-        width:0%;
-    }
-}
-@media screen and (max-width:1366px){
-    .classificacaoNomesTime{
-        margin:0px -180px;
-    }
-    .classificacaoPontos{
-        padding:20px 0px;
-        font-size: 2vh;
-    }
-    .classificacaoPontosPontuacao{
-        padding:0px;
-        font-size: 2vh;
-    }
-    .tabelaHeader{
-        padding:10px;
-        font-size: 2vh;
-    }
-    .tabelaClassificacaoNome{
-        padding:10px;
-        font-size: 2vh;
-    }
-    .tabelaColPosicao{
-        padding:10px;
-        width:0%;
-    }
-    .tabelaColTime{
-        padding:10px;
-        width:0%;
-    }
-}
-@media screen and (max-width:1024px){
+@media screen and (max-width:1280px){
     .classificacaoNomesTime{
         display:none;
     }
     .classificacaoNomesTimeSigla{
         display: flex;
-        margin:0px -18px;
         font-size: 3vh;
-    }
-    .classificacaoPontos{
-        padding:20px 0px;
-        font-size: 2vh;
-    }
-    .classificacaoPontosPontuacao{
-        padding:5px;
-        font-size: 2vh;
-    }
-    .tabelaHeader{
-        padding:10px;
-        font-size: 2vh;
-    }
-    .tabelaClassificacaoNome{
-        padding:10px;
-        font-size: 2vh;
-    }
-}
-@media screen and (max-width:768px){
-    .classificacaoNomesTime{
-        display:none;
-    }
-    .classificacaoNomesTimeSigla{
-        display: flex;
-        margin:0px -18px;
-        font-size: 3vh;
-    }
-    .classificacaoPontos{
-        padding:20px 0px;
-        font-size: 2vh;
-    }
-    .classificacaoPontosPontuacao{
-        padding:5px;
-        font-size: 2vh;
-    }
-    .tabelaHeader{
-        padding:10px;
-        font-size: 2vh;
-    }
-    .tabelaClassificacaoNome{
-        padding:10px;
-        font-size: 2vh;
     }
 }
