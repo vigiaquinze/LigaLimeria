@@ -50,6 +50,14 @@ h1 {
     color:#d7dad6;
 }
 
+ol,ul {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
 .separaTempo{
     width:80%;
 }
@@ -168,6 +176,137 @@ h1 {
     border-left: 1px solid #41557b;
     border-right: 1px solid #41557b;
     width:200px
+}
+.tabelaListao{
+    padding-left: 32px;
+    margin-left: 32px;
+    border-left: 1px solid #41557b;
+}
+.nomeRodadaNav{
+    color: #d7dad6;
+    font-family: 'Epilogue', sans-serif;
+    display: flex;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 900;
+    justify-content: center;
+    line-height: 2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.nomeRodada{
+    border-bottom: 1px solid #41557b;
+    border-top: 1px solid #41557b;
+    flex-grow: 2;
+}
+.listaJogos{
+    font-size: 16px;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    padding: 0px;
+    margin-top: -21px;
+    height: 90%;
+}
+.listaJogosJogo{
+    border-bottom: 1px solid #41557b;
+    display: block;
+}
+.jogoTema{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:10px;
+}
+.jogoInformacoes{
+    color: #d7dad6;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 0.6875em;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.jogoInformacoesLocal{
+    font-weight: 300;
+}
+.placar{
+    align-items: center;
+    color: #d7dad6;
+    font-family: 'Epilogue', sans-serif;
+    display: flex;
+    height: 4em;
+    justify-content: center;
+}
+.placarMandante{
+    text-align: right;
+    justify-content: flex-end;
+}
+.placarVisitante{
+    text-align: left;
+    justify-content: flex-start;
+}
+.equipesNome{
+    display: none;
+}
+.equipesEscudo{
+    height: 30px;
+    width: 30px;
+}
+.escudoMandante{
+    margin-left: 8px;
+}
+.escudoVisitante{
+    margin-right: 8px;
+}
+.placarBox{
+    align-items: center;
+    display: flex;
+    flex-grow: 2;
+    height: 40px;
+    justify-content: center;
+    width: 30%;
+}
+.PlacarBoxValorMandante{
+    font-size: 1.3125em;
+    color: #d7dad6;
+    font-family: 'Epilogue', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    vertical-align: middle;
+}
+.PlacarBoxValorVisitante{
+    font-size: 1.3125em;
+    color: #d7dad6;
+    font-family: 'Epilogue', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    vertical-align: middle;
+}
+.placarBoxPenaltis{
+    font-size: .7em;
+}
+.placarBoxPenaltisValorMandante{
+    margin-left: 5px;
+}
+.placarBoxPenaltisValorVisitante{
+    margin-right: 5px;
+}
+.placarBoxVersus{
+    display: flex;
+    height: 16px;
+    margin: 0 5px;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 16px;
+}
+.jogoTransmissao{
+    font-family: 'Epilogue', sans-serif;
+    font-size: 0.6875em;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width:1280px){
