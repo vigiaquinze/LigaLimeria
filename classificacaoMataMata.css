@@ -1,0 +1,153 @@
+/*COLOR PALETTE
+#0c1017 primary
+#d7dad6 secondary
+#006eff tertiary
+#002563 fourtiary*/
+
+body {
+    margin:0px auto;
+    background-color: #0c1017;
+}
+
+#primary-color {
+    color:#0c1017
+}
+#secondary-color {
+    color:#d7dad6
+}
+#tertiary-color {
+    color:#006eff
+}
+#fourtiary-color {
+    color:#002563
+}
+#success-color {
+    color:#005a51
+}
+#danger-color {
+    color:#db003e
+}
+
+hr {
+    width:50%
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+h1 {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 900;
+    color:#d7dad6;
+}
+
+ol,ul {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#navBar {
+    background-color: #002563;
+    color: #002563;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding:2px;
+    transition:0.5s;
+    font-size: 3vh;
+}
+#navBar:hover {
+    letter-spacing: 6px;
+    transition: 1s;
+    cursor:pointer;
+    background-color: #ff51f9;
+    color: #002563;
+}
+#navBar h1{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 900;
+    color: #ffd3fe;
+    transition: 1s;
+}
+#navBar h1:hover{
+    color: #002563;
+    transition: 1s;
+}
+
+.tabelaTitulo{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    color:#d7dad6;
+}
+
+.BracketsScalingSvg{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#BracketsBackground{
+    fill: #1d2535;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BracketLines{
+    stroke:#d7dad6;
+}
+
+.BracketsSemi{
+    fill:#d7dad6;
+}
+
+.BracketsLabel{
+    fill:#d7dad6;
+}
+
+.BracketTextColor{
+    fill:#d7dad6;
+}
+
+.BracketOutline {
+    stroke:#949593;
+    stroke-width: 3px;
+}
+
+.BracketSeparator{
+    fill:#d7dad6;
+}
+
+.BracketWinTeam{
+    fill:#d7dad6;
+}
+
+.BracketBackground{
+    fill: #0c1017;
+    stroke:#4a5f8a;
+}
+
+.BracketFinal{
+    fill: #4a5f8a;
+}
+
+.BracketFinal text{
+    fill: #d7dad6;
+}

@@ -57,10 +57,16 @@ h1 {
     letter-spacing: 6px;
     transition: 1s;
     cursor:pointer;
+    background-color: #002563;
 }
 #navBar h1{
     font-family: 'Epilogue', sans-serif;
     font-weight: 900;
+    transition: 1s;
+}
+#navBar h1:hover{
+    color: #87b3ff;
+    transition: 1s;
 }
 
 .headerPlacar {
