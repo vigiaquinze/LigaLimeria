@@ -4,6 +4,84 @@
 #006eff tertiary
 #002563 fourtiary*/
 
+/* Webfont: Humane-Bold */@font-face {
+    font-family: 'MangoGrotesque';
+    src: url(assets/font/Humane-Bold.eot); /* IE9 Compat Modes */
+    src: url(assets/font/Humane-Bold.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+         url(assets/font/Humane-Bold.woff) format('woff'), /* Modern Browsers */
+         url(assets/font/Humane-Bold.woff2) format('woff2'), /* Modern Browsers */
+         url(assets/font/Humane-Bold.ttf) format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+/* Webfont: Humane-ExtraLight */@font-face {
+    font-family: 'MangoGrotesqueExtLt';
+    src: url(assets/font/Humane-ExtraLight.eot); /* IE9 Compat Modes */
+    src: url(assets/font/Humane-ExtraLight.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+         url(assets/font/Humane-ExtraLight.woff) format('woff'), /* Modern Browsers */
+         url(assets/font/Humane-ExtraLight.woff2) format('woff2'), /* Modern Browsers */
+         url(assets/font/Humane-ExtraLight.ttf) format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+/* Webfont: Humane-Light */@font-face {
+    font-family: 'MangoGrotesqueLight';
+    src: url(assets/font/Humane-Light.eot); /* IE9 Compat Modes */
+    src: url(assets/font/Humane-Light.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+         url(assets/font/Humane-Light.woff) format('woff'), /* Modern Browsers */
+         url(assets/font/Humane-Light.woff2) format('woff2'), /* Modern Browsers */
+         url(assets/font/Humane-Light.ttf) format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+/* Webfont: Humane-Medium */@font-face {
+    font-family: 'MangoGrotesqueMed';
+    src: url(assets/font/Humane-Medium.eot); /* IE9 Compat Modes */
+    src: url(assets/font/Humane-Medium.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+         url(assets/font/Humane-Medium.woff) format('woff'), /* Modern Browsers */
+         url(assets/font/Humane-Medium.woff2) format('woff2'), /* Modern Browsers */
+         url(assets/font/Humane-Medium.ttf) format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+/* Webfont: Humane-Regular */@font-face {
+    font-family: 'MangoGrotesque';
+    src: url(assets/font/Humane-Regular.eot); /* IE9 Compat Modes */
+    src: url(assets/font/Humane-Regular.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+         url(assets/font/Humane-Regular.woff) format('woff'), /* Modern Browsers */
+         url(assets/font/Humane-Regular.woff2) format('woff2'), /* Modern Browsers */
+         url(assets/font/Humane-Regular.ttf) format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+/* Webfont: Humane-SemiBold */@font-face {
+    font-family: 'MangoGrotesqueSemBd';
+    src: url(assets/font/Humane-SemiBold.eot); /* IE9 Compat Modes */
+    src: url(assets/font/Humane-SemiBold.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+         url(assets/font/Humane-SemiBold.woff) format('woff'), /* Modern Browsers */
+         url(assets/font/Humane-SemiBold.woff2) format('woff2'), /* Modern Browsers */
+         url(assets/font/Humane-SemiBold.ttf) format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+/* Webfont: Humane-Thin */@font-face {
+    font-family: 'MangoGrotesqueThin';
+    src: url(assets/font/Humane-Thin.eot); /* IE9 Compat Modes */
+    src: url(assets/font/Humane-Thin.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+         url(assets/font/Humane-Thin.woff) format('woff'), /* Modern Browsers */
+         url(assets/font/Humane-Thin.woff2) format('woff2'), /* Modern Browsers */
+         url(assets/font/Humane-Thin.ttf) format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
 body {
     margin:0px auto;
     background-color: #0c1017;
@@ -44,9 +122,35 @@ table {
     border-spacing: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 h1 {
-    font-family: 'Epilogue', sans-serif;
+    font-family: 'MangoGrotesque', sans-serif;
     font-weight: 900;
+    color:#d7dad6;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+h2 {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+    color:#d7dad6;
+}
+h3 {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 500;
+    color:#d7dad6;
+}
+h4 {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 300;
+    color:#d7dad6;
+}
+p {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 300;
     color:#d7dad6;
 }
 
@@ -60,38 +164,36 @@ a{
 
 #navBar {
     background-color: #002563;
-    color: #002563;
     display: flex;
     justify-content: center;
     align-items:center;
-    padding:2px;
     transition:0.5s;
-    font-size: 3vh;
+    font-size: 9vh;
 }
 #navBar:hover {
-    letter-spacing: 6px;
     transition: 1s;
     cursor:pointer;
-    background-color: #ff51f9;
-    color: #002563;
+    background-color: #ffc2ee;
 }
 #navBar h1{
-    font-family: 'Epilogue', sans-serif;
-    font-weight: 900;
-    color: #ffd3fe;
+    color: #ff31c5;
     transition: 1s;
+    margin-bottom: 0px;
+    margin-top: 20px;
 }
 #navBar h1:hover{
-    color: #002563;
+    color: #0f2142;
     transition: 1s;
+    letter-spacing: 12px;
 }
 
 .tabelaTitulo{
-    font-family: 'Epilogue', sans-serif;
-    font-weight: 900;
     display: flex;
     justify-content: center;
     color:#d7dad6;
+    font-size: 120px;
+    margin-bottom: -20px;
+    margin-top: 0px;
 }
 
 .BracketsScalingSvg{

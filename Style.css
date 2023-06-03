@@ -82,9 +82,20 @@
     text-rendering: optimizeLegibility;
 }
 
+
 body {
     margin:0px auto;
     background-color: #0c1017;
+    text-decoration: none;
+}
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 #primary-color {
@@ -108,22 +119,6 @@ body {
 
 hr {
     width:50%
-}
-
-th {
-    display: table-cell;
-    vertical-align: inherit;
-    font-weight: bold;
-    text-align: -internal-center;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
-a{
-    text-decoration: none;
 }
 
 h1 {
@@ -154,16 +149,12 @@ p {
     color:#d7dad6;
 }
 
-ol,ul {
-    list-style-type: none;
+.separaTempo{
+    width:80%;
 }
 
 a{
     text-decoration: none;
-}
-
-.separaTempo{
-    width:80%;
 }
 
 
@@ -192,239 +183,110 @@ a{
     letter-spacing: 12px;
 }
 
-.tabelaTitulo{
+.galeriaNoticias {
     display: flex;
+    margin: auto;
     justify-content: center;
-    color:#d7dad6;
-    font-size: 120px;
-    margin-bottom: -20px;
-    margin-top: 0px;
+    flex-direction: row;
+    width: 90%;
 }
 
-.classificacaoPontosCorridos{
-    background-color: #1f293b;
-    display: flex;
-    justify-content: center;
-    width:65%;
-    border-radius: 16px;
-    margin: 0px auto;
-    padding:16px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #41557b;
+#fotoFundo{
+    border-radius: 8px;
+    opacity:30%;
+    width: inherit;
+    object-fit: cover;
+    transition: 2s;
+    width: 100%;
+}
+#fotoFundo:hover{
+    opacity: 100%;
+    transition: 2s;
+    width: 101%;
 }
 
-.tabelaEquipesBorda{
-    font-family: 'Epilogue', sans-serif;
-    font-weight: 900;
-    color: #d7dad6;
-    padding:16px;
-    border-color: #41557b;
-    border-bottom-style: solid;
-    border-right-style: solid;
-    border-width: 1px;
-    width:40%
+.noticiaPrincipal {
+    display: inline-block;
+    position: relative;
+    object-fit: cover;
+    width: 64%;
+    padding:15px;
 }
-.tabelaColPosicao{
-    padding:10px;
-    width:75%;
-    vertical-align: middle;
+
+.noticiaPrincipalConteudo {
+    display: inline-block;
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 75%;
+    transition: 1s;
 }
-.tabelaColTime{
-    padding:10px;
-    border-bottom-style: solid;
-    border-right-style: solid;
-    border-width: 1px;
-    width:25%
+.noticiaPrincipalConteudo:hover {
+    object-fit: cover;
+    transition: 1s;
+    letter-spacing: 2px;
 }
-.tabelaHeader{
-    border-bottom: 1px solid #41557b;
-    border-right: none;
-    border-top: 1px solid #41557b;
-    color: #d7dad6;
-    font-family: 'Epilogue', sans-serif;
-    font-size: 11px;
-    font-style: normal;
-    font-weight: 300;
-    height: 30px;
-    line-height: 30px;
-    text-transform: uppercase;
-}
-.classificacaoTabelaLinha{
-    text-align: auto;
-    border-right: 1px solid #41557b;
-    border-bottom: solid 1px #41557b;
-    height: 55px;
-}
-.classificacaoPosicao{
-    text-align: left;
-    letter-spacing: -2px;
-    line-height: 22px;
-    font-size: 3vh;
-}
-.classificacaoNomesTime{
-    display: block;
-    overflow: hidden;
-    word-break: keep-all;
-    text-overflow: ellipsis;
-}
-.classificacaoNomesTimeSigla{
-    display: none;
-}
-.classificacaoPontos{
-    background-color: #0000000f;
-    line-height: 14px;
-    font-family: 'Epilogue', sans-serif;
-    color: #d7dad6;
-    text-align: center;
-}
-.classificacaoPontosPontuacao{
-    font-weight: 700;
-}
-.tabelaPontos{
-    background-color: #00000033;
-    border-left: 1px solid #41557b;
-    border-right: 1px solid #41557b;
-    width:200px
-}
-.tabelaListao{
-    padding-left: 32px;
-    margin-left: 32px;
-    border-left: 1px solid #41557b;
-}
-.nomeRodadaNav{
-    color: #d7dad6;
-    font-family: 'Epilogue', sans-serif;
+
+.noticiasSecundarias {
     display: flex;
-    font-size: 1em;
-    font-style: normal;
-    font-weight: 900;
-    justify-content: center;
-    line-height: 2em;
-    text-align: center;
-    text-transform: uppercase;
-}
-.nomeRodada{
-    border-bottom: 1px solid #41557b;
-    border-top: 1px solid #41557b;
-    flex-grow: 2;
-}
-.listaJogos{
-    font-size: 16px;
-    list-style-type: none;
-    -webkit-font-smoothing: antialiased;
-    padding: 0px;
-    margin-top: -21px;
-    height: 90%;
-}
-.listaJogosJogo{
-    border-bottom: 1px solid #41557b;
-    display: block;
-}
-.jogoTema{
-    text-align: center;
-    align-items: center;
-    display: flex;
-    justify-content: center;
     flex-direction: column;
-    padding:10px;
-}
-.jogoInformacoes{
-    color: #d7dad6;
-    font-family: 'Epilogue', sans-serif;
-    font-size: 0.6875em;
-    font-style: normal;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-.jogoInformacoesLocal{
-    font-weight: 300;
-}
-.placar{
-    align-items: center;
-    color: #d7dad6;
-    font-family: 'Epilogue', sans-serif;
-    display: flex;
-    height: 4em;
-    justify-content: center;
-}
-.placarMandante{
-    text-align: right;
-    justify-content: flex-end;
-}
-.placarVisitante{
-    text-align: left;
-    justify-content: flex-start;
-}
-.equipesNome{
-    display: none;
-}
-.equipesEscudo{
-    height: 30px;
-    width: 30px;
-}
-.escudoMandante{
-    margin-left: 8px;
-}
-.escudoVisitante{
-    margin-right: 8px;
-}
-.placarBox{
-    align-items: center;
-    display: flex;
-    flex-grow: 2;
-    height: 40px;
-    justify-content: center;
-    width: 30%;
-}
-.PlacarBoxValorMandante{
-    font-size: 1.3125em;
-    color: #d7dad6;
-    font-family: 'Epilogue', sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    vertical-align: middle;
-}
-.PlacarBoxValorVisitante{
-    font-size: 1.3125em;
-    color: #d7dad6;
-    font-family: 'Epilogue', sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    vertical-align: middle;
-}
-.placarBoxPenaltis{
-    font-size: .7em;
-}
-.placarBoxPenaltisValorMandante{
-    margin-left: 5px;
-}
-.placarBoxPenaltisValorVisitante{
-    margin-right: 5px;
-}
-.placarBoxVersus{
-    display: flex;
-    height: 16px;
-    margin: 0 5px;
-    overflow: hidden;
-    vertical-align: middle;
-    width: 16px;
-}
-.jogoTransmissao{
-    font-family: 'Epilogue', sans-serif;
-    font-size: 0.6875em;
-    font-style: normal;
-    font-weight: 700;
-    letter-spacing: -0.3px;
-    text-transform: uppercase;
+    width:30%;
 }
 
-@media screen and (max-width:1280px){
-    .classificacaoNomesTime{
-        display:none;
-    }
-    .classificacaoNomesTimeSigla{
-        display: flex;
-        font-size: 3vh;
-    }
+.outrasNoticias {
+    display: block;
+    position: relative;
+    object-fit: cover;
+    height:50%;
+    width: 100%;
+    padding:15px;
+    transition: 1s;
+}
+.outrasNoticias:hover {
+    opacity:100%;
+    width: 102%;
+    object-fit: cover;
+    transition: 1s;
+    letter-spacing: 2px;
+}
+
+.noticiaPrincipal h1{
+        position: absolute;
+        font-size: 100px;
+        font-size: 100px;
+        bottom:-80px;
+        left:40px;
+        color: rgb(255, 255, 255);
+        text-shadow: 0px 0px 5px black;
+}
+
+.noticiaPrincipal h3{
+        position: absolute;
+        bottom:-60px;
+        left:40px;
+        color: rgb(255, 255, 255);
+        text-shadow: 0px 0px 5px black;
+}
+.noticiaPrincipal p{
+        position: absolute;
+        bottom:-70px;
+        left:40px;
+        color: rgb(255, 255, 255);
+        text-shadow: 0px 0px 5px black;
+}
+
+.outrasNoticias h1{
+        position: absolute;
+        font-size: 100px;
+        bottom:20px;
+        left:40px;
+        color: rgb(255, 255, 255);
+        text-shadow: 0px 0px 5px black;
+}
+.outrasNoticias p{
+        position: absolute;
+        bottom:80px;
+        left:40px;
+        color: rgb(255, 255, 255);
+        text-shadow: 0px 0px 5px black;
 }
