@@ -4,6 +4,39 @@
 #006eff tertiary
 #002563 fourtiary*/
 
+@font-face {
+    font-family: 'TimesModern';
+    src: url('assets/fonts/TimesModern-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TimesDigitalW04-RegularSC';
+    src: url('assets/fonts/TimesDigitalW04-RegularSC.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TimesModern';
+    src: url('assets/fonts/TimesModern-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TimesDigitalW04';
+    src: url('assets/fonts/TimesDigitalW04-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 /* Webfont: Humane-Bold */@font-face {
     font-family: 'MangoGrotesque';
     src: url(assets/font/Humane-Bold.eot); /* IE9 Compat Modes */
@@ -217,9 +250,10 @@ p {
 		opacity:100%;
 	}
 
-	50% {
-		transform: scale(0.75);
+	30% {
+		transform: scale(0.50);
 		opacity:40%;
+        letter-spacing: 20px;
     }
 	100% {
 		transform: scale(1);
@@ -272,6 +306,7 @@ p {
     font-family: 'Epilogue', sans-serif;
     font-weight: 300;
     color:#d7dad6;
+    margin-top:58px;
 }
 .separadorPlacar{
     font-size: 10vh;
@@ -352,7 +387,20 @@ p {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    font-family: 'Epilogue', sans-serif;
+    font-family: 'TimesModern', serif;
+    color: #d7dad6;
+    padding:10px;
+}
+
+#textoCronicaJogo{
+    width:70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'TimesModern';
+    font-weight: bold;
     color: #d7dad6;
     padding:10px;
 }
@@ -406,6 +454,11 @@ p {
     margin-top: 0px;
     margin-bottom: -20px;
     font-size: 80px;
+}
+
+#fotoAvatar{
+    border-radius: 50%;
+    border: 2px solid #87b3ff;
 }
 
 .fotoGol{
@@ -584,4 +637,5 @@ p {
 .fotoJogo {
     width:70%;
     padding:20px;
+    border-radius: 40px;
 }

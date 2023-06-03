@@ -4,6 +4,39 @@
 #006eff tertiary
 #002563 fourtiary*/
 
+@font-face {
+    font-family: 'TimesModern';
+    src: url('assets/fonts/TimesModern-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TimesDigitalW04-RegularSC';
+    src: url('assets/fonts/TimesDigitalW04-RegularSC.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TimesModern';
+    src: url('assets/fonts/TimesModern-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TimesDigitalW04';
+    src: url('assets/fonts/TimesDigitalW04-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 /* Webfont: Humane-Bold */@font-face {
     font-family: 'MangoGrotesque';
     src: url(assets/font/Humane-Bold.eot); /* IE9 Compat Modes */
