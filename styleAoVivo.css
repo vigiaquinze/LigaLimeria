@@ -183,6 +183,7 @@ p {
 
 #navBar {
     background-color: #006eff;
+    background-image: url("assets/backgrounds/star-background.svg");
     display: flex;
     justify-content: center;
     align-items:center;
@@ -193,17 +194,15 @@ p {
 #navBar:hover {
     transition: 1s;
     cursor:pointer;
-    background-color: #000c21;
 }
 #navBar h1{
-    color: #002563;
+    color: #d7dad6;
     transition: 1s;
     margin-bottom: 0px;
     margin-top: 20px;
     text-decoration: none;
 }
 #navBar h1:hover{
-    color: #87b3ff;
     transition: 1s;
     letter-spacing: 12px;
 }

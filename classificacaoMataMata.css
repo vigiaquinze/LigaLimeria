@@ -196,28 +196,40 @@ a{
 }
 
 #navBar {
-    background-color: #002563;
+    background-color: #071d3a;
+    background-image: url("assets/backgrounds/star-background.svg");
     display: flex;
     justify-content: center;
     align-items:center;
     transition:0.5s;
     font-size: 9vh;
+    text-decoration: none;
 }
 #navBar:hover {
     transition: 1s;
     cursor:pointer;
-    background-color: #ffc2ee;
 }
 #navBar h1{
-    color: #ff31c5;
+    color: #d7dad6;
     transition: 1s;
     margin-bottom: 0px;
     margin-top: 20px;
+    text-decoration: none;
 }
 #navBar h1:hover{
-    color: #0f2142;
     transition: 1s;
     letter-spacing: 12px;
+}
+
+#conf-labels{
+    font-family: 'MangoGrotesque';
+    font-size:4.5vh;
+    transition: 1s;
+    cursor: pointer;
+}
+#conf-labels:hover{
+    letter-spacing: 4px;
+    transition: 1s;
 }
 
 .tabelaTitulo{
