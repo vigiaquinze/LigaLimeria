@@ -114,7 +114,9 @@
     font-weight: normal;
     text-rendering: optimizeLegibility;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     margin:0px auto;
