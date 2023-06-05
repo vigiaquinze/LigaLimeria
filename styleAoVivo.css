@@ -145,7 +145,8 @@ a{
 }
 
 hr {
-    width:50%
+    width:50%;
+    border: 1px solid #87b3ff;
 }
 
 h1 {
@@ -184,6 +185,9 @@ p {
 #navBar {
     background-color: #006eff;
     background-image: url("assets/backgrounds/star-background.svg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items:center;

@@ -198,6 +198,9 @@ a{
 #navBar {
     background-color: #071d3a;
     background-image: url("assets/backgrounds/star-background.svg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items:center;
