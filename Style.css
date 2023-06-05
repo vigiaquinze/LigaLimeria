@@ -334,3 +334,26 @@ hr {
         color: rgb(255, 255, 255);
         text-shadow: 0px 0px 5px black;
 }
+
+#tituloPagina{
+    font-size: 12vh;
+    margin: 0px auto;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    transition: 2s;
+    font-weight: 900;
+}
+#subtituloPagina{
+    font-size: 12vh;
+    margin: 0px auto;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    transition: 2s;
+    font-weight: 100;
+}
+#subtituloPagina:hover{
+    letter-spacing: 9px;
+    transition: 1s;
+}
