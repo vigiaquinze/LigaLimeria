@@ -229,6 +229,12 @@ a{
     letter-spacing: 12px;
 }
 
+hr {
+    width:50%;
+    border-top: 0.3px solid #87b3ff;
+    border-bottom-width:0px;
+}
+
 .tabelaTitulo{
     display: flex;
     justify-content: center;
