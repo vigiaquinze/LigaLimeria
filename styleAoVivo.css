@@ -360,25 +360,71 @@ p {
     display: flex;
     align-items: top;
     color:#d7dad6;
-    margin-left:50px;
-    text-align: left;
 }
 .golsJogadoresCasa li{
     font-family: 'Epilogue', sans-serif;
     font-weight: 400;
     list-style-type: none;
+    text-align: left;
 }
 .golsJogadoresFora{
     display: flex;
     align-items: top;
     color:#d7dad6;
-    margin-right:100px;
+    margin-right:50px;
 }
 .golsJogadoresFora li{
     font-family: 'Epilogue', sans-serif;
     font-weight: 400;
     list-style-type: none;
     text-align: right;
+}
+
+.escalacoesTimes{
+    width:70%;
+    background-color:#040507;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin:0px auto;
+}
+#escalacaoCasa{
+    display: flex;
+    align-items: top;
+    color:#d7dad6;
+    flex-direction: column;
+    margin-left:50px;
+    text-align: left;
+}
+#escalacaoCasa h2{
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px;
+}
+#escalacaoCasa li{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 400;
+    list-style-type: none;
+    padding:5px;
+}
+#escalacaoFora{
+    display: flex;
+    align-items: top;
+    color:#d7dad6;
+    flex-direction: column;
+    margin-right:100px;
+    text-align: right;
+}
+#escalacaoFora li{
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 400;
+    list-style-type: none;
+    padding:5px;
+}
+#escalacaoFora h2{
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px;
 }
 
 .cronicaJogo{
