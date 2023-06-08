@@ -366,6 +366,7 @@ p {
     font-weight: 400;
     list-style-type: none;
     text-align: left;
+    margin-left: 50px;
 }
 .golsJogadoresFora{
     display: flex;
@@ -400,6 +401,7 @@ p {
     text-align: center;
     border-radius: 15px;
     padding: 5px;
+    margin-left: 0px;
 }
 #escalacaoCasa li{
     font-family: 'Epilogue', sans-serif;
@@ -699,4 +701,13 @@ p {
     width:70%;
     padding:20px;
     border-radius: 40px;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
 }
