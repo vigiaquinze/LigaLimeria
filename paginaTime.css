@@ -1,0 +1,408 @@
+/*COLOR PALETTE
+#0c1017 primary
+#d7dad6 secondary
+#006eff tertiary
+#002563 fourtiary*/
+
+@font-face {
+    font-family: 'TimesModern';
+    src: url('assets/fonts/TimesModern-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TimesDigitalW04-RegularSC';
+    src: url('assets/fonts/TimesDigitalW04-RegularSC.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TimesModern';
+    src: url('assets/fonts/TimesModern-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TimesDigitalW04';
+    src: url('assets/fonts/TimesDigitalW04-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Webfont: Humane-Bold */@font-face {
+    font-family: 'MangoGrotesque';
+    src: url(assets/font/Humane-Bold.eot); /* IE9 Compat Modes */
+    src: url(assets/font/Humane-Bold.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+         url(assets/font/Humane-Bold.woff) format('woff'), /* Modern Browsers */
+         url(assets/font/Humane-Bold.woff2) format('woff2'), /* Modern Browsers */
+         url(assets/font/Humane-Bold.ttf) format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+/* Webfont: Humane-ExtraLight */@font-face {
+    font-family: 'MangoGrotesqueExtLt';
+    src: url(assets/font/Humane-ExtraLight.eot); /* IE9 Compat Modes */
+    src: url(assets/font/Humane-ExtraLight.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+         url(assets/font/Humane-ExtraLight.woff) format('woff'), /* Modern Browsers */
+         url(assets/font/Humane-ExtraLight.woff2) format('woff2'), /* Modern Browsers */
+         url(assets/font/Humane-ExtraLight.ttf) format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+/* Webfont: Humane-Light */@font-face {
+    font-family: 'MangoGrotesqueLight';
+    src: url(assets/font/Humane-Light.eot); /* IE9 Compat Modes */
+    src: url(assets/font/Humane-Light.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+         url(assets/font/Humane-Light.woff) format('woff'), /* Modern Browsers */
+         url(assets/font/Humane-Light.woff2) format('woff2'), /* Modern Browsers */
+         url(assets/font/Humane-Light.ttf) format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+/* Webfont: Humane-Medium */@font-face {
+    font-family: 'MangoGrotesqueMed';
+    src: url(assets/font/Humane-Medium.eot); /* IE9 Compat Modes */
+    src: url(assets/font/Humane-Medium.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+         url(assets/font/Humane-Medium.woff) format('woff'), /* Modern Browsers */
+         url(assets/font/Humane-Medium.woff2) format('woff2'), /* Modern Browsers */
+         url(assets/font/Humane-Medium.ttf) format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+/* Webfont: Humane-Regular */@font-face {
+    font-family: 'MangoGrotesque';
+    src: url(assets/font/Humane-Regular.eot); /* IE9 Compat Modes */
+    src: url(assets/font/Humane-Regular.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+         url(assets/font/Humane-Regular.woff) format('woff'), /* Modern Browsers */
+         url(assets/font/Humane-Regular.woff2) format('woff2'), /* Modern Browsers */
+         url(assets/font/Humane-Regular.ttf) format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+/* Webfont: Humane-SemiBold */@font-face {
+    font-family: 'MangoGrotesqueSemBd';
+    src: url(assets/font/Humane-SemiBold.eot); /* IE9 Compat Modes */
+    src: url(assets/font/Humane-SemiBold.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+         url(assets/font/Humane-SemiBold.woff) format('woff'), /* Modern Browsers */
+         url(assets/font/Humane-SemiBold.woff2) format('woff2'), /* Modern Browsers */
+         url(assets/font/Humane-SemiBold.ttf) format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+/* Webfont: Humane-Thin */@font-face {
+    font-family: 'MangoGrotesqueThin';
+    src: url(assets/font/Humane-Thin.eot); /* IE9 Compat Modes */
+    src: url(assets/font/Humane-Thin.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+         url(assets/font/Humane-Thin.woff) format('woff'), /* Modern Browsers */
+         url(assets/font/Humane-Thin.woff2) format('woff2'), /* Modern Browsers */
+         url(assets/font/Humane-Thin.ttf) format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    margin:0px auto;
+    background-color: #0c1017;
+}
+
+#primary-color {
+    color:#0c1017
+}
+#secondary-color {
+    color:#d7dad6
+}
+#tertiary-color {
+    color:#006eff
+}
+#fourtiary-color {
+    color:#002563
+}
+#success-color {
+    color:#005a51
+}
+#danger-color {
+    color:#db003e
+}
+
+hr {
+    width:50%
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'MangoGrotesque', sans-serif;
+    font-weight: 900;
+    color:#d7dad6;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+h2 {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+    color:#d7dad6;
+}
+h3 {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 500;
+    color:#d7dad6;
+}
+h4 {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 300;
+    color:#d7dad6;
+}
+p {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 300;
+    color:#d7dad6;
+}
+
+ol,ul {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#navBar {
+    background-color: #006eff;
+    background-image: url("assets/backgrounds/star-background.svg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    transition:0.5s;
+    font-size: 9vh;
+    text-decoration: none;
+}
+#navBar:hover {
+    transition: 1s;
+    cursor:pointer;
+}
+#navBar h1{
+    color: #d7dad6;
+    transition: 1s;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+#navBar h1:hover{
+    transition: 1s;
+    letter-spacing: 12px;
+}
+
+hr {
+    width:50%;
+    border-top: 0.3px solid #87b3ff;
+    border-bottom-width:0px;
+}
+
+.tabelaTitulo{
+    display: flex;
+    justify-content: center;
+    color:#d7dad6;
+    font-size: 120px;
+    margin-bottom: -20px;
+    margin-top: 0px;
+}
+
+.tabelaListao{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width:80%;
+    margin: 0px auto;
+}
+.nomeRodadaNav{
+    color: #d7dad6;
+    font-family: 'Epilogue', sans-serif;
+    display: flex;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 900;
+    justify-content: center;
+    line-height: 2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.nomeRodada{
+    border-bottom: 1px solid #41557b;
+    border-top: 1px solid #41557b;
+    flex-grow: 2;
+}
+.listaJogos{
+    font-size: 16px;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    padding: 0px;
+    margin-top: -21px;
+    height: 90%;
+}
+.listaJogosJogo{
+    border-bottom: 1px solid #41557b;
+    display: block;
+}
+.jogoTema{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:10px;
+}
+.jogoInformacoes{
+    color: #d7dad6;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 0.6875em;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.jogoInformacoesLocal{
+    font-weight: 300;
+}
+.placar{
+    align-items: center;
+    color: #d7dad6;
+    font-family: 'Epilogue', sans-serif;
+    display: flex;
+    height: 4em;
+    justify-content: center;
+}
+.placarMandante{
+    text-align: right;
+    justify-content: flex-end;
+}
+.placarVisitante{
+    text-align: left;
+    justify-content: flex-start;
+}
+.equipesNome{
+    display: flex;
+    white-space: nowrap;
+}
+.equipesSigla{
+    display: none;
+}
+.equipesEscudo{
+    height: 30px;
+    width: 30px;
+}
+.escudoMandante{
+    margin-left: 8px;
+}
+.escudoVisitante{
+    margin-right: 8px;
+}
+.placarBox{
+    align-items: center;
+    display: flex;
+    flex-grow: 2;
+    height: 40px;
+    justify-content: center;
+    width: 30%;
+}
+.PlacarBoxValorMandante{
+    font-size: 1.3125em;
+    color: #d7dad6;
+    font-family: 'Epilogue', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    vertical-align: middle;
+}
+.PlacarBoxValorVisitante{
+    font-size: 1.3125em;
+    color: #d7dad6;
+    font-family: 'Epilogue', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    vertical-align: middle;
+}
+.placarBoxPenaltis{
+    font-size: .7em;
+}
+.placarBoxPenaltisValorMandante{
+    margin-left: 5px;
+}
+.placarBoxPenaltisValorVisitante{
+    margin-right: 5px;
+}
+.placarBoxVersus{
+    display: flex;
+    height: 16px;
+    margin: 0 5px;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 16px;
+}
+.jogoTransmissao{
+    font-family: 'Epilogue', sans-serif;
+    font-size: 0.6875em;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+}
+
+.fundoEscudo{
+    color: #fff;
+    text-transform: uppercase;
+    width: 100%;
+    min-height: 120px;
+    display: flex;
+}
+
+.logoPagina{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.nomeTimePagina {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding-top: 0px;
+}
+.nomeTimePagina h1{
+    font-size: 18vh;
+    margin-top: 40px;
+    margin-bottom: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
