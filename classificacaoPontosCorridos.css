@@ -243,6 +243,14 @@ hr {
     margin-bottom: -20px;
     margin-top: 0px;
 }
+.tabelaSubtitulo{
+    display: flex;
+    justify-content: center;
+    color:#d7dad6;
+    font-size: 70px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
 
 .classificacaoPontosCorridos{
     background-color: #1f293b;
@@ -460,6 +468,88 @@ hr {
     font-weight: 700;
     letter-spacing: -0.3px;
     text-transform: uppercase;
+}
+.artilheirosCampeonato{
+    -webkit-font-smoothing: antialiased;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: block;
+    width: 65%;
+    margin: 0 auto;
+}
+.rankingHeader{
+    font-family: 'Epilogue', sans-serif;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: #41557b;
+    color: #999;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+.rankingHeaderGols{
+    margin-left: auto;
+    padding-right: 20px;
+}
+.rankingConteudo{
+    box-sizing: content-box;
+    overflow: auto;
+    height: 430px;
+    border-bottom: 1px solid #41557b;
+}
+.rankingItemWrapper{
+    border-bottom: 1px solid #41557b;
+    display: flex;
+    align-items: center;
+}
+.rankingItem{
+    width: 30px;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 900;
+    color: #41557b;
+    font-size: 38px;
+}
+.jogador{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 78px;
+}
+.jogadorFoto{
+    border-radius: 50px;
+    background-color: #F1F1F1;
+    display: block;
+    height: 50px;
+    margin-right: 10px;
+    overflow: hidden;
+    width: 50px;
+}
+.jogadorInfo{
+    margin-left: 20px;
+}
+.jogadorNome{
+    font-family: 'Epilogue', sans-serif;
+    color: #d7dad6;
+    font-size: 20px;
+    letter-spacing: -1px;
+}
+.jogadorPosicao{
+    font-family: 'Epilogue', sans-serif;
+    color: #41557b;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 3px;
+}
+.jogadorGols{
+    margin-left: auto;
+    padding-right: 20px;
+    color: #41557b;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 900;
+    font-size: 36px;
 }
 
 @media screen and (max-width:1280px){
