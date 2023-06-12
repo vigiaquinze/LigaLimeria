@@ -711,3 +711,9 @@ ul {
     margin-inline-end: 0px;
     padding-inline-start: 0px;
 }
+#deactive{
+    opacity:50%
+}
+#active{
+    opacity:200%
+}
