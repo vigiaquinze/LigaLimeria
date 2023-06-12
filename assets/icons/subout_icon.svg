@@ -25,7 +25,7 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="22.291667"
-     inkscape:cx="7.8056073"
+     inkscape:cx="4.0822429"
      inkscape:cy="10.676635"
      inkscape:window-width="1366"
      inkscape:window-height="715"
@@ -71,7 +71,7 @@
      transform="matrix(1,0,0,-1,0,23.719137)"
      style="fill:#ff0000">
     <rect
-       style="fill:#ff0000;stroke-width:8.33622;stroke-miterlimit:5"
+       style="fill:none;stroke-width:0.3;stroke-miterlimit:5;stroke:#ff004f;stroke-opacity:1;stroke-dasharray:none"
        id="rect195"
        width="0.19032407"
        height="20.420187"
@@ -79,7 +79,7 @@
        y="1.6494752"
        ry="0.09880735" />
     <rect
-       style="fill:#ff0000;stroke-width:6.24178;stroke-miterlimit:5"
+       style="fill:none;stroke-width:0.3;stroke-miterlimit:5;stroke:#ff004f;stroke-opacity:1;stroke-dasharray:none"
        id="rect195-7"
        width="0.19032407"
        height="11.448224"
@@ -88,7 +88,7 @@
        ry="0.055394631"
        transform="rotate(45)" />
     <rect
-       style="fill:#ff0000;stroke-width:6.24178;stroke-miterlimit:5"
+       style="fill:none;stroke-width:0.3;stroke-miterlimit:5;stroke:#ff004f;stroke-opacity:1;stroke-dasharray:none"
        id="rect195-7-8"
        width="0.19032407"
        height="11.448224"
