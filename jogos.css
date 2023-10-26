@@ -1,0 +1,213 @@
+@keyframes pulse {
+    0%   {scale: 1; opacity: 0.5;}
+    50%  {scale: 1.2; opacity: 1; letter-spacing: 2px;}
+    100% {scale: 1; opacity: 0.5;}
+  }
+
+body{
+    height: 100vh;
+}
+
+.tempoReal{
+    display: flex;
+}
+
+.cronicaAoVivo{
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    width: 80%;
+}
+
+.placarPrincipal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: #FFF;
+    font-family: 'Epilogue';
+    margin: 30px 0px;
+}
+
+.nomeEscudo{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 0px;
+}
+
+.nomeEscudo img{
+    width: 50px;
+    margin: 0px 20px;
+}
+
+.placar{
+    font-weight: 900;
+    font-size: 32px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    letter-spacing: 0px;
+}
+
+.separator{
+    padding: 7px;
+}
+
+.goleadores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 10px;
+    padding-top: 5px;
+}
+
+#penaltisPlacar {
+    display: none;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 7px;
+}
+
+.tempo{
+    display: flex;
+    font-family: 'Epilogue';
+    color: #FFF;
+    justify-content: center;
+    margin-top: -20px;
+    animation: pulse 3s infinite;
+}
+
+.lance{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.658) 0px 0px 5px 0px;
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+}
+
+.lanceTime{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.658) 0px 0px 5px 0px;
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+}
+
+.lanceTime img{
+    width: 30px;
+    height: 30px;
+}
+
+.lanceTempo{
+    color: #FFF;
+    font-family: 'Epilogue';
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+.lanceTempo h1{
+    font-family: 'Epilogue';
+    padding: 10px;
+}
+
+.timeLance{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: -20px 0px -10px 10px;
+    padding: 0px;
+}
+
+.timeLance svg{
+    height: 36px;
+    position: absolute;
+    left: 100px;
+}
+
+.timeLance h1{
+    display: inline;
+    font-family: 'Epilogue';
+    text-transform: capitalize;
+    font-weight: 700;
+    padding: 0px 5px;
+    font-size: 16px;
+}
+
+.comentariosLance{
+    font-family: 'Epilogue';
+    color: #FFF;
+    padding: 10px;
+}
+
+.comentariosLance strong{
+    font-weight: 800;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+
+.escalacao{
+    margin: 0px 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 50%;
+    height: 100vh;
+}
+
+.escalacao h1{
+    font-family: 'Epilogue';
+    letter-spacing: 0px;
+}
+
+.escalacoesTimes{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.timeEscalacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.timeEscalacao img{
+    width: 30px;
+    margin-bottom: -15px;
+}
+
+.jogadorEscalacao{
+    color: #FFF;
+    font-family: 'Epilogue';
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+.jogadorEscalacao p{
+    font-family: 'Epilogue';
+    opacity: 0.5;
+    padding: 0px;
+    margin: -20px 0px;
+}
+
+.jogadorEscalacao li{
+    font-size: 12px;
+    margin: 10px 0px;
+    opacity: 0.5;
+    list-style-type: none;
+}
