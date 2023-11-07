@@ -271,6 +271,11 @@ colgroup{
     border-radius: 100px;
 }
 
+tbody{
+    color: #FFF;
+    font-family: 'Epilogue', sans-serif;
+}
+
 .tabelaEquipesBorda{
     font-family: 'Epilogue', sans-serif;
     font-weight: 900;
