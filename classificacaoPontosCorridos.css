@@ -264,7 +264,7 @@ hr {
     border-width: 2px;
     border-color: #41557b;
     color: #FFF;
-    font-family: 'Epilogue';
+    font-family: 'Epilogue', sans-serif;
 }
 
 colgroup{
