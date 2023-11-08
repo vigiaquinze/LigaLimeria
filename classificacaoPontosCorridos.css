@@ -276,6 +276,12 @@ tbody{
     font-family: 'Epilogue', sans-serif;
 }
 
+.outrasRodadas h4{
+    display: flex;
+    justify-content: center;
+    color: #87b3ff;
+}
+
 .tabelaEquipesBorda{
     font-family: 'Epilogue', sans-serif;
     font-weight: 900;
