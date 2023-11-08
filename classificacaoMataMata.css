@@ -195,14 +195,13 @@ a{
     text-decoration: none;
 }
 
-hr {
-    width:50%;
-    border-top: 0.3px solid #87b3ff;
-    border-bottom-width:0px;
+.separaTempo{
+    width:80%;
 }
 
+
 #navBar {
-    background-color: #071d3a;
+    background-color: #006eff;
     background-image: url("assets/backgrounds/star-background.svg");
     background-size: cover;
     background-attachment: fixed;
@@ -230,15 +229,10 @@ hr {
     letter-spacing: 12px;
 }
 
-#conf-labels{
-    font-family: 'MangoGrotesque';
-    font-size:4.5vh;
-    transition: 1s;
-    cursor: pointer;
-}
-#conf-labels:hover{
-    letter-spacing: 4px;
-    transition: 1s;
+hr {
+    width:50%;
+    border-top: 0.3px solid #87b3ff;
+    border-bottom-width:0px;
 }
 
 .tabelaTitulo{
@@ -249,65 +243,249 @@ hr {
     margin-bottom: -20px;
     margin-top: 0px;
 }
+.tabelaSubtitulo{
+    display: flex;
+    justify-content: center;
+    color:#d7dad6;
+    font-size: 70px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
 
-.BracketsScalingSvg{
+.classificacaoPontosCorridos{
+    background-color: #1f293b;
+    display: flex;
+    justify-content: center;
+    width:85%;
+    border-radius: 16px;
+    margin: 0px auto;
+    padding:16px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #41557b;
+    color: #FFF;
+    font-family: 'Epilogue', sans-serif;
+}
+
+colgroup{
+    border-radius: 100px;
+}
+
+tbody{
+    color: #FFF;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.outrasRodadas h4{
+    display: flex;
+    justify-content: center;
+    color: #87b3ff;
+}
+
+.tabelaEquipesBorda{
     font-family: 'Epilogue', sans-serif;
     font-weight: 900;
+    color: #d7dad6;
+    padding:16px;
+    border-color: #41557b;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+    width:40%
+}
+.tabelaColPosicao{
+    padding:10px;
+    width:75%;
+    vertical-align: middle;
+}
+.tabelaColTime{
+    padding:10px;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+    width:25%
+}
+.tabelaHeader{
+    border-bottom: 1px solid #41557b;
+    border-right: none;
+    border-top: 1px solid #41557b;
+    color: #d7dad6;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 300;
+    height: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.classificacaoTabelaLinha{
+    text-align: auto;
+    border-right: 1px solid #41557b;
+    border-bottom: solid 1px #41557b;
+    height: 55px;
+}
+.classificacaoPosicao{
+    text-align: left;
+    letter-spacing: -2px;
+    line-height: 22px;
+    font-size: 3vh;
+}
+.classificacaoNomesTime{
+    display: block;
+    overflow: hidden;
+    word-break: keep-all;
+    text-overflow: ellipsis;
+}
+.classificacaoNomesTimeSigla{
+    display: none;
+}
+.classificacaoPontos{
+    background-color: #0000000f;
+    line-height: 14px;
+    font-family: 'Epilogue', sans-serif;
+    color: #d7dad6;
+    text-align: center;
+}
+.classificacaoPontosPontuacao{
+    font-weight: 700;
+}
+.tabelaPontos{
+    background-color: #00000033;
+    border-left: 1px solid #41557b;
+    border-right: 1px solid #41557b;
+    width:200px
+}
+.tabelaListao{
+    padding-left: 32px;
+    margin-left: 32px;
+    border-left: 1px solid #41557b;
+}
+.nomeRodadaNav{
+    color: #d7dad6;
+    font-family: 'Epilogue', sans-serif;
+    display: flex;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 900;
+    justify-content: center;
+    line-height: 2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.nomeRodada{
+    border-bottom: 1px solid #41557b;
+    border-top: 1px solid #41557b;
+    flex-grow: 2;
+}
+.listaJogos{
+    font-size: 16px;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    padding: 0px;
+    margin-top: -21px;
+    height: 90%;
+}
+.listaJogosJogo{
+    border-bottom: 1px solid #41557b;
+    display: block;
+}
+.jogoTema{
+    text-align: center;
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    padding:10px;
 }
-
-#BracketsBackground{
-    fill: #1d2535;
-    width:100%;
+.jogoInformacoes{
+    color: #d7dad6;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 0.6875em;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.jogoInformacoesLocal{
+    font-weight: 300;
+}
+.placar{
+    align-items: center;
+    color: #d7dad6;
+    font-family: 'Epilogue', sans-serif;
     display: flex;
+    height: 4em;
     justify-content: center;
+}
+.placarMandante{
+    text-align: right;
+    justify-content: flex-end;
+}
+.placarVisitante{
+    text-align: left;
+    justify-content: flex-start;
+}
+.equipesNome{
+    display: none;
+}
+.equipesEscudo{
+    height: 30px;
+    width: 30px;
+}
+.escudoMandante{
+    margin-left: 8px;
+}
+.escudoVisitante{
+    margin-right: 8px;
+}
+.placarBox{
     align-items: center;
+    display: flex;
+    flex-grow: 2;
+    height: 40px;
+    justify-content: center;
+    width: 30%;
 }
-
-.BracketLines{
-    stroke:#d7dad6;
+.PlacarBoxValorMandante{
+    font-size: 1.3125em;
+    color: #d7dad6;
+    font-family: 'Epilogue', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    vertical-align: middle;
 }
-
-.BracketsSemi{
-    fill:#d7dad6;
+.PlacarBoxValorVisitante{
+    font-size: 1.3125em;
+    color: #d7dad6;
+    font-family: 'Epilogue', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    vertical-align: middle;
 }
-
-.BracketsLabel{
-    fill:#d7dad6;
+.placarBoxPenaltis{
+    font-size: .7em;
 }
-
-.BracketTextColor{
-    fill:#d7dad6;
+.placarBoxPenaltisValorMandante{
+    margin-left: 5px;
 }
-
-.BracketOutline {
-    stroke:#949593;
-    stroke-width: 3px;
+.placarBoxPenaltisValorVisitante{
+    margin-right: 5px;
 }
-
-.BracketSeparator{
-    fill:#d7dad6;
+.placarBoxVersus{
+    display: flex;
+    height: 16px;
+    margin: 0 5px;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 16px;
 }
-
-.BracketWinTeam{
-    fill:#d7dad6;
+.jogoTransmissao{
+    font-family: 'Epilogue', sans-serif;
+    font-size: 0.6875em;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
 }
-
-.BracketBackground{
-    fill: #0c1017;
-    stroke:#4a5f8a;
-}
-
-.BracketFinal{
-    fill: #4a5f8a;
-}
-
-.BracketFinal text{
-    fill: #d7dad6;
-}
-
 .artilheirosCampeonato{
     -webkit-font-smoothing: antialiased;
     padding-top: 30px;
@@ -389,4 +567,14 @@ hr {
     font-family: 'Epilogue', sans-serif;
     font-weight: 900;
     font-size: 36px;
+}
+
+@media screen and (max-width:1280px){
+    .classificacaoNomesTime{
+        display:none;
+    }
+    .classificacaoNomesTimeSigla{
+        display: flex;
+        font-size: 3vh;
+    }
 }
